@@ -1,0 +1,26 @@
+ .Footer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #efefef;
+    color: #ebe3e389;
+    font-size:x-small;
+    column-gap: 126px;
+    
+ }
+ 
+ .List {
+    display:flex;
+    flex-direction: column;
+
+}
+
+.List a:hover{
+    color:blue;
+}
+
+h3{
+    color:black;
+}
+
+

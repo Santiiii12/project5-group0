@@ -1,0 +1,19 @@
+.Navbar {
+    display:flex;
+    gap: 40px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.Navbar a:hover{
+   color:blue;
+   text-decoration: underline;
+}

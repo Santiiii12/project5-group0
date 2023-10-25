@@ -1,0 +1,23 @@
+.Footertwo{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #efefef;
+    color: #89898989;
+    font-size:x-small;
+    column-gap: 96px;
+
+}
+
+.Listtwo {
+    display:flex;
+    flex-direction: column;
+
+}
+
+h4{
+    color:black;
+}
+
+
