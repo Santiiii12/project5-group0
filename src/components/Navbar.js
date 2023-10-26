@@ -1,9 +1,11 @@
 import './Navbar.css'
+import {Link} from "react-router-dom"
+
 function Navbar (){
 
     return(
     <div className='Navbar'>
-        <a href="/">Deportes</a>
+        <Link to="/Pages/Bicicletas" >Deportes</Link>
         <a href="/">Mujer</a>
         <a href="/">Hombre</a>
         <a href="/">Infantil</a>

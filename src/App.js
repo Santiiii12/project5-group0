@@ -1,32 +1,25 @@
 
 import './App.css';
-import LogoImg from './components/Logo';
-import Navbar from './components/Navbar';
-import Banner from './components/Banner';
-import Footer from './components/Footer';
-import Footertwo from './components/Footertwo';
+import { Routes, Route } from 'react-router-dom';
+import Principal from './Pages/Principal';
 
 
-function App() {
-  return (
+
+
+export default function App(){
+  return(
     <div className="App">
-      <header className="App-header">
-
-        <LogoImg />
-        <Navbar />
+      
+      <Routes>
+        <Route index Component ={Principal}/>
         
-       </header>
-       
 
+      </Routes>
 
-      <div className="Banner">
-        <Banner/>
-        </div>
-
-      <Footer/>
-      <Footertwo/>
+      
     </div>
   );
 }
 
-export default App;
+
+
