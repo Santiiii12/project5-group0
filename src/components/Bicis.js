@@ -8,6 +8,7 @@ let Imagenes = ({product}) => (
         <div className="products">
             <img src={product.url} alt={product.name} className="prodimage"/>
             <h3 className="bikenames"> {product.name}</h3>
+            <h4>{product.price}€</h4>
         </div>
 )
 
