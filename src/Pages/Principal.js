@@ -15,6 +15,7 @@ function Principal(){
             <Banner/>
             <footer>
                 <Footer />
+                <Footertwo />
                 
 
             </footer>
