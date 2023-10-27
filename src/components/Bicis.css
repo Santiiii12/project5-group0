@@ -1,13 +1,19 @@
 
 
 .prodimage{
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 360px;
+    max-height: 360px;
+    transition: all .2s ease-in-out;
     
    
     
     
 
+}
+.prodimage:hover {
+    transform: scale(1.1);
+
+    
 }
 
 
@@ -17,7 +23,7 @@
       justify-content: center;
       align-items: center;
       text-size-adjust: 100px;
-      gap:60px;
+      gap:140px;
 
       
      
@@ -25,7 +31,7 @@
 
 }
 .bikenames{
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
 
 }
