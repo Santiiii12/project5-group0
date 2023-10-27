@@ -1,8 +1,10 @@
 
 
 .prodimage{
-    max-width: 150%;
-    max-height: 150%;
+    max-width: 500px;
+    max-height: 500px;
+    
+   
     
     
 
@@ -10,14 +12,21 @@
 
 
 .prodcontainer{
-    display: flex;
+      display: flex;
+      flex-wrap: wrap;
       justify-content: center;
-      max-width: 50%;
-      max-height: 50%;
-      margin:50px;
+      align-items: center;
+      text-size-adjust: 100px;
+      gap:60px;
+
+      
+     
+    
+
+}
+.bikenames{
+    font-size: 10px;
+    text-align: center;
 
 }
 
-.h3{
-    font-size: 40px; 
-}

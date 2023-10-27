@@ -7,7 +7,7 @@ import Bicis from "../components/bicis.json";
 let Imagenes = ({product}) => (
         <div className="products">
             <img src={product.url} alt={product.name} className="prodimage"/>
-            <h3>{product.name}</h3>
+            <h3 className="bikenames"> {product.name}</h3>
         </div>
 )
 
